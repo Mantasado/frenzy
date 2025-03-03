@@ -2,7 +2,11 @@
 export default {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'osrs-dark-gray': '#232323'
+      }
+    },
   },
   plugins: [],
 }
